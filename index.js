@@ -33,9 +33,9 @@ const questions = [
     name: "usage",
   },
   {
-    type: "checkbox",
+    type: "list",
     message: "what license did you use?",
-    choices: ["ISC", "MIT", "idk"],
+    choices: ["ISC", "MIT", "Apache", "None"],
     name: "license",
   },
   {

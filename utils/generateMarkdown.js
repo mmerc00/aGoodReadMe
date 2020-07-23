@@ -2,10 +2,10 @@
 //license and table of contents contributed by Mike
 function generateMarkdown(data) {
   return `# ${data.title}
-  [![License: ${data.license}](https://img.shields.io/badge/License-${
-    data.license
-  }-yellow.svg)](https://opensource.org/licenses/${data.license})
-  Table of Contents
+
+  [![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-yellow.svg)](https://opensource.org/licenses/${data.license})
+  
+  ### Table of Contents
     1. [Description](#description)
     2. [Installation](#installation)
     3. [Usage](#usage)
@@ -24,7 +24,7 @@ function generateMarkdown(data) {
 # ${data.usage}
 
 ### License
-# ${data.license.join(" ")}
+# ${data.license}
 
 ### Contribution
 # ${data.contribution}
@@ -33,8 +33,11 @@ function generateMarkdown(data) {
 # ${data.tests}
 
 ### Questions
+#${data.questions}
 
-# ${data.question}
+###links
+# (https://github.com/${data.github})
+#${data.email}
 `;
 }
 
