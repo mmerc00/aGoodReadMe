@@ -84,3 +84,5 @@ function init() {
 
 // function to init program
 init();
+
+//writeToFile("./output/generated-readme.md", markdownData);

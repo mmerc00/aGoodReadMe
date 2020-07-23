@@ -12,19 +12,19 @@
     7. [Questions](#questions)
   
 ### Description
-# hmm
+# hm
 
 ### Installation
-# idl
+# what
 
 ### Usage
-# idk
+# no
 
 ### License
 # ISC
 
 ### Contribution
-# 
+# idk
 
 ### Tests
 # no
@@ -33,5 +33,5 @@
 #undefined
 
 ###links
-# (https://github.com/nope)
-#nah
+# (https://github.com/mmerc00)
+#mm.com

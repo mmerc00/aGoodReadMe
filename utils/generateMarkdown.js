@@ -45,3 +45,5 @@ module.exports = generateMarkdown;
 
 //the more the ### the more it shrinks
 //tik intraculations
+
+//make output folder
