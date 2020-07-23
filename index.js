@@ -5,7 +5,6 @@ const fs = require("fs");
 //inquierer
 const inquirer = require("inquirer");
 
-// array of questions for user
 //add table of contents and links
 const questions = [
   {
@@ -59,11 +58,11 @@ const questions = [
     message: "and lastly, what is your email",
     name: "email",
   },
-  {
-    type: "input",
-    message: "Questions?",
-    name: "question",
-  },
+  // {
+  //   type: "input",
+  //   message: "Questions?",
+  //   name: "question",
+  // },
 ];
 
 // function to append README file
