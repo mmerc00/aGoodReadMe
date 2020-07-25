@@ -65,7 +65,7 @@ const questions = [
   // },
 ];
 
-// function to append README file
+//function to append README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, function (err) {
     if (err) {
@@ -74,7 +74,8 @@ function writeToFile(fileName, data) {
   });
 }
 
-// function to init program
+//function to init program
+//user readme is filtered into output folder
 function init() {
   inquirer.prompt(questions).then(function (response) {
     const markdownData = generateMarkdown(response);
@@ -82,8 +83,5 @@ function init() {
   });
 }
 
-// function to init program
+// function to initialize program
 init();
-
-//to make separate readme file
-//writeToFile("./output/generated-readme.md", markdownData);
